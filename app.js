@@ -17,6 +17,6 @@ dotenv.config({ path: './config/config.env'});
 
 connectDB();
 
-app.use('https://backened-curd-meanstack.onrender.com', require('./routes/index'));
+app.use('/', require('./routes/index'));
 
 app.listen(3000);
